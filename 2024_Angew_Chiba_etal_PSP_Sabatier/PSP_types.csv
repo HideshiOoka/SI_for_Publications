@@ -1,0 +1,11 @@
+﻿,type,protein_name,full_org_name,T_opt
+Hsa,1,PSPH,Homo sapiens,37
+Tel,2,TLR1532,Thermosynechococcus elongatus,57
+Cau,2,Caur_0633,Chloroflexus aurantiacus,60
+Mja,1,MJ_1594,Methanocaldococcus jannaschii,85
+Tth,3,TT_C1695,Thermus thermophilus,70
+Eco,1,JW4351,Escherichia coli,37
+Mru,3,K649_13560,Meiothermus ruber,60
+Bsu,3,BSU28940,Bacillus subtilis,32.5
+Pma,2,PERMA_0343,Persephonella marina,70
+Hth,2,HTH_0103,Hydrogenobacter thermophilus,70
