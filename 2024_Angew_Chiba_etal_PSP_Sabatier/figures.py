@@ -23,7 +23,7 @@ plt.rcParams["xtick.minor.width"] = 1
 plt.rcParams["ytick.minor.width"] = 1
 plt.rcParams["legend.fontsize"] = 10
 R = 8.314 # J/mol/K
-fig_dir = "../Figures/"
+fig_dir = "Figures/"
 dblue, blue, gblue, lblue, red, pink, orange =["#033453","#0C7185","#4C837A","#0DAFE1","#910C07","#FF5657","#F48153"]
 c_list_9 = ["b","steelblue","g","limegreen", "silver", "grey","orange","tomato","crimson","k"]
 PSP_types = pd.read_csv("PSP_types.csv", index_col = 0)
@@ -452,7 +452,7 @@ grey = "#7F7F7F"
 fs = 12
 i = 4
 
-c1,c2,c3 = blue, red, orange
+c1,c2,c3 = blue, grey, orange
 S = v_40.columns.astype(float).to_numpy()[i]
 S = np.array([S])
 C = PSP_40_pars["C"].values
@@ -493,8 +493,8 @@ ax.set_ylim(-1, 2)
 ax.set_xscale("log")
 ax.set_xticks([])
 ax.set_yticks([])
-# plt.savefig(f"{fig_dir}Press_TOC_Blue_Grey_Orange.png",dpi = 600)
-plt.savefig(f"{fig_dir}Press_TOC_Blue_Red_Orange.png",dpi = 600)
+plt.savefig(f"{fig_dir}Press_TOC_Blue_Grey_Orange.png",dpi = 600)
+# plt.savefig(f"{fig_dir}Press_TOC_Blue_Red_Orange.png",dpi = 600)
 #%%
 fig, ax = make_volcano(S_extract,logv_40_extract, Km, logv_40_std_extract, "", c_list = [blue, red], ls = "o--", annotate = False)
 
