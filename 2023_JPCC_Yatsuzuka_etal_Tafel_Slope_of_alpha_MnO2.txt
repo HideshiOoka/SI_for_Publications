@@ -1,0 +1,2 @@
+The code can be found here:
+https://github.com/KoichiYatsuzuka/Figs_alphaMnO2_OER_Tafel_slope
