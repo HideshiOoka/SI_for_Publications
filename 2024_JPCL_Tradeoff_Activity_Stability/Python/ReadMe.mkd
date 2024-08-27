@@ -1,0 +1,9 @@
+During the actual research, code were run in the following order: 
+
+```spectral_fitting.py```: This code reads reference spectra for UV-Vis and fits spectra in target directory. Outputs data such as ```210909_210130C_Fitted.csv```. Some data were obtained using different experimental settings such as wavelength resolutions. In those cases, fitting was done with 1 nm resolution data, and the original file was saved separately such as ```221004_220909D_UV_05nm_resolution.csv```.
+
+```analysis.py```: This code calculates the theoretical lifetime from experimental data and outputs ```MnO2.csv``` as a summary.
+
+```figures.py```: Makes figures and saves them in the ```Figures``` directory.
+
+The repo comes with all of the relevant data (output files from upstream codes), so if you clone the entire repo, each code should run regardless of the order.
