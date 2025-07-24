@@ -4,4 +4,4 @@ The (python) codes used in my published papers will be uploaded to this director
 
 ## Seleted Contents 
 - 2023 Nature Communications: Numerical simulations of enzyme volcano plots. 
-- 2021 ACS Catal: Fitting algorithm of Tafel plots. The code works but it is dirty. I hope to someday make a version 2 with cleaner code.
+- 2021 ACS Catal: Fitting algorithm of Tafel plots. The code has been updated on July 24th, 2025. The code is not completely self-standing, but is cleaner than version 1 due to functionality being separated across different modules.
